@@ -1,0 +1,19 @@
+{
+  "name": "sse",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Maks0u",
+  "license": "MIT",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
